@@ -1,0 +1,859 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Navbar{
+display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  gap: 10px;
+
+  position: absolute;
+  width: 100%;
+  height: 14%;
+  left: 0px;
+  top: 0px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 0px;
+
+}
+
+/* .Navbar .Icon{
+  width: 42px;
+  height: 10px;
+  position:absolute; */
+/* left: 8.33%;
+  right: 7.23%;
+  top: 8.33%;
+  bottom: 5.33%; */
+  
+   
+
+
+.Navbar .Icon{
+position: absolute;
+left: 86%;
+  right: 5.23%;
+  top: 35.33%;
+  bottom: 5.33%;
+  width: 42px;
+    height: 42px;
+
+}
+ .Navbar .Icon2{
+position: absolute;
+left: 90%;
+  right: 7.23%;
+  top: 35.33%;
+  bottom: 5.33%;
+  width: 42px;
+    height: 42px;
+
+}
+ .Navbar .Icon4{
+position: absolute;
+left: 57%;
+  right: 7.23%;
+  top: 20.33;
+  bottom: 25%;
+  
+
+} 
+
+ .Navbar .Icon5{
+position: absolute;
+left: 45%;
+  right: 7.23%;
+  top: 38%;
+  bottom: 25%;
+  
+
+} 
+ .Navbar .Icon6{
+position: absolute;
+  left: 35.33%;
+  right: 10.42%;
+  top: 37%;
+  bottom: 25%;
+  
+
+} 
+
+
+
+
+ .Navbar .Icon3{
+position: absolute;
+left: 94%;
+  right: 7.23%;
+  top: 50.33;
+  bottom: 35%;
+  width: 42px;
+  height: 42px;
+
+} 
+
+.Navbar .Icon7 {
+  position: flex;
+    left: 4%;
+    right: 7.23%;
+    top: 30.33;
+    bottom: 45.5%;
+}
+
+
+.Searchbar{
+  position: absolute;
+    width: 352px;
+    height: 40px;
+    left: 1150px;
+    top: 150px;
+  
+    background: #FFFFFF;
+    opacity: 0.4;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+
+
+
+.Searchbar .Tab {
+  position: absolute;
+  float: right;
+    padding: 0px;
+     background-color: transparent;
+    border: 0px solid;
+    border:0px solid;
+    margin-top: 8px;
+    margin-right: 86px;
+    font-size: 17px;
+
+  
+    /* height: 40px;
+    left: 1150px;
+    top: 150px; */
+  
+    background: #FFFFFF;
+    opacity: 0.4;
+    border-radius: 100px;
+}
+
+
+.Line {
+  position: absolute;
+    width: 90%;
+    height: 0px;
+    left: 65px;
+    top: 220px;
+
+  
+    border: 1px solid #DCDCDC;
+}
+
+
+
+.Action {
+display:flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  padding: 10px 50px;
+  gap: 10px;
+
+  position: absolute;
+  width: 100%;
+
+  left: 0px;
+  top: 230px;
+
+  background: #FFFFFF;
+  /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15); */
+  border-radius: 0px;
+
+}
+
+
+.Action .Period {
+  
+    position: relative;
+    width: 171px;
+    height: 45px;
+    left: 1209px;
+    top: -1px;
+  
+    background: #5364FF;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+
+
+.Action .Period .Roger{
+  position: absolute;
+    left: 25%;
+    right: 60.25%;
+    top: 31%;
+    bottom: 6.25%;
+}
+
+
+.Action .Period .Text{
+  width: 81px;
+    height: 19px;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 120%;
+      color: #FFFFFF;
+      flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+
+.Searchbar .Words1{ 
+  position: absolute;
+  left: -200%;
+  right: 45%;
+  top: 28%;
+  width: 35%;
+    height: 19px;
+  font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+
+}
+.Searchbar .Words2{ 
+  position: absolute;
+    left: -250%;
+    background: #E5E8FF;
+    color: #000000;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 12px;
+      gap: 10px;
+
+}
+.Searchbar .Words3{  
+  position: absolute;
+  top: 28%;
+    left: -294%;
+  width: 125px;
+    height: 19px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+
+}
+
+
+
+.Week .One{
+  position: absolute;
+    width: 26px;
+    height: 12px;
+    left: 12%;
+    top: 350px;
+}
+.Week .Two{
+position: absolute;
+  width: 26px;
+  height: 12px;
+  left: 370px;
+  top: 350px;
+
+}
+.Week .Three{
+position: absolute;
+  width: 26px;
+  height: 12px;
+  left: 36.9%;
+  top: 350px;
+}
+.Week .Four{
+position: absolute;
+  width: 26px;
+  height: 12px;
+  left: 50.5%;
+  top: 350px;
+}
+.Week .Five{
+position: absolute;
+  width: 26px;
+  height: 12px;
+  left: 64%;
+  top: 350px;
+}
+
+.Week .Six{
+position: absolute;
+  width: 26px;
+  height: 12px;
+  left: 76.5%;
+  top: 350px;
+}
+.Week .Seven{
+position: absolute;
+  width: 26px;
+  height: 12px;
+  left: 89%;
+  top: 350px;
+}
+
+
+.Week .Number1{
+position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 197px;
+  top: 383px;
+  background: #5364FF;
+  border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 10px;
+  
+  }
+
+  .Week .Number2{
+    position: absolute;
+      width: 26px;
+      height: 12px;
+      left: 388px;
+      top: 382px;
+  }
+
+  .Week .Number3{
+    position: absolute;
+      width: 26px;
+      height: 12px;
+      left: 39%;
+      top: 382px;
+  }
+
+  .Week .Number4{
+    position: absolute;
+      width: 26px;
+      height: 12px;
+      left: 52%;
+      top: 382px;
+  }
+
+  .Week .Number5{
+    position: absolute;
+      width: 26px;
+      height: 12px;
+      left: 64.5%;
+      top: 382px;
+  }
+  .Week .Number6{
+    position: absolute;
+      width: 26px;
+      height: 12px;
+      left: 78%;
+      top: 382px;
+  }
+  .Week .Number7{
+    position: absolute;
+      width: 26px;
+      height: 12px;
+      left: 90%;
+      top: 382px;
+  }
+
+.Grid .Row1{
+  position: absolute;
+    width: 89%;
+  height: 0px;
+    left: 85px;
+    top: 65%;
+  
+    border: 1px solid #DCDCDD;
+}
+.Grid .Row2{
+  position: absolute;
+    width: 89%;
+    height: 0px;
+    left: 85px;
+    top: 69%;
+  
+    border: 1px solid #DCDCDD;
+}
+.Grid .Row3{
+  position: absolute;
+    width: 86%;
+    height: 0px;
+    left: 85px;
+    top: 75%;
+  
+    border: 1px solid #DCDCDD;
+}
+.Grid .Row4{
+  position: absolute;
+    width: 86%;
+    height: 0px;
+    left: 85px;
+    top: 81%;
+  
+    border: 1px solid #DCDCDD;
+}
+.Grid .Row5{
+  position: absolute;
+    width: 86%;
+    height: 0px;
+    left: 85px;
+    top: 87%;
+  
+    border: 1px solid #DCDCDD;
+}
+.Grid .Row6{
+  position: absolute;
+    width: 86%;
+    height: 0px;
+    left: 85px;
+    top: 93%;
+  
+    border: 1px solid #DCDCDD;
+}
+.Grid .Row7{
+  position: absolute;
+    width: 86%;
+    height: 0px;
+    left: 85px;
+    top: 100%;
+  
+    border: 1px solid #DCDCDD;
+}
+.Grid .Row8{
+  position: absolute;
+    width: 86%;
+    height: 0px;
+    left: 85px;
+    top: 106%;
+  
+    border: 1px solid #DCDCDD;
+}
+.Grid .Row9{
+  position: absolute;
+    width: 86%;
+    height: 0px;
+    left: 85px;
+    top: 112%;
+  
+    border: 1px solid #DCDCDD;
+}
+.Grid .Row10{
+  position: absolute;
+    width: 86%;
+    height: 0px;
+    left: 85px;
+    top: 118%;
+  
+    border: 1px solid #DCDCDD;
+}
+.Grid .Row11{
+  position: absolute;
+    width: 86%;
+    height: 0px;
+    left: 85px;
+    top: 124%;
+  
+    border: 1px solid #DCDCDD;
+}
+.Grid .Row12{
+  position: absolute;
+    width: 86%;
+    height: 0px;
+    left: 85px;
+    top: 130%;
+  
+    border: 1px solid #DCDCDD;
+}
+
+
+
+.Grid .Row1 .Time1 {
+font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 120%;
+  position: absolute;
+  left: -2%;
+  top: 1%;
+
+}
+.Grid .Row2 .Time2 {
+font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 120%;
+  position: absolute;
+  left: -2%;
+  top: 1%;
+
+}
+.Grid .Row3 .Time3 {
+font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 120%;
+  position: absolute;
+  left: -2%;
+  top: 1%;
+
+}
+.Grid .Row4 .Time4 {
+font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 120%;
+  position: absolute;
+  left: -2%;
+  top: 1%;
+
+}
+.Grid .Row5 .Time5 {
+font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 120%;
+  position: absolute;
+  left: -2%;
+  top: 1%;
+
+}
+.Grid .Row6 .Time6 {
+font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 120%;
+  position: absolute;
+  left: -2%;
+  top: 1%;
+
+}
+.Grid .Row7 .Time7 {
+font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 120%;
+  position: absolute;
+  left: -2%;
+  top: 1%;
+
+}
+.Grid .Row8 .Time8 {
+font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 120%;
+  position: absolute;
+  left: -2%;
+  top: 1%;
+
+}
+.Grid .Row9 .Time9 {
+font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 120%;
+  position: absolute;
+  left: -2%;
+  top: 1%;
+
+}
+.Grid .Row10 .Time10 {
+font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 120%;
+  position: absolute;
+  left: -2%;
+  top: 1%;
+
+}
+.Grid .Row11 .Time11 {
+font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 120%;
+  position: absolute;
+  left: -2%;
+  top: 1%;
+
+}
+
+.Grid .Colum1{
+  position: absolute;
+    width: 0px;
+    height:80%;
+    left: 7%;
+    top: 354px;
+  
+    border: 1px solid #DCDCDD;
+}
+
+
+.Grid .Colum2{
+position: absolute;
+  width: 0px;
+  height: 80%;
+  left: 20%;
+  top: 354px;
+
+  border: 1px solid #DCDCDD;
+}
+.Grid .Colum3{
+position: absolute;
+  width: 0px;
+  height: 80%;
+  left: 33%;
+  top: 354px;
+
+  border: 1px solid #DCDCDD;
+}
+.Grid .Colum4{
+position: absolute;
+  width: 0px;
+  height: 80%;
+  left: 46%;
+  top: 354px;
+
+  border: 1px solid #DCDCDD;
+}
+.Grid .Colum5{
+position: absolute;
+  width: 0px;
+  height: 80%;
+  left: 59%;
+  top: 354px;
+
+  border: 1px solid #DCDCDD;
+}
+.Grid .Colum6{
+position: absolute;
+  width: 0px;
+  height: 80%;
+  left: 72%;
+  top: 354px;
+
+  border: 1px solid #DCDCDD;
+}
+.Grid .Colum7{
+position: absolute;
+  width: 0px;
+  height: 80%;
+  left: 85%;
+  top: 354px;
+
+  border: 1px solid #DCDCDD;
+}
+
+.Alphabet .Alphabet1{
+width:28px;
+height:28px;
+  position: absolute;
+  background: #27282e3a;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 10px;
+
+}
+.Alphabet .Alphabet2{
+position: absolute;
+left: 35%;
+  width:28px;
+height:28px;
+  position: absolute;
+  background: #27282e3a;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 10px;
+
+}
+.Alphabet .Alphabet3{
+position: absolute;
+left: 39%;
+  width:28px;
+height:28px;
+  position: absolute;
+  background: #27282e3a;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 10px;
+
+}
+.Alphabet .Alphabet4{
+position: absolute;
+left: 43%;
+  width:28px;
+height:28px;
+  position: absolute;
+  background: #27282e3a;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 10px;
+
+}
+
+
+.Alphabet .Alphabet5{
+position: absolute;
+left: 47%;
+  width:28px;
+height:28px;
+  position: absolute;
+  background: #27282e3a;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 10px;
+
+}
+
+.Alphabet .Alphabet6{
+position: absolute;
+left: 51%;
+  width:28px;
+height:28px;
+  position: absolute;
+  background: #27282e3a;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 10px;
+
+}
+
+
+.Alphabet .Alphabet7{
+position: absolute;
+left: 55%;
+  width:28px;
+height:28px;
+  position: absolute;
+  background: #27282e3a;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 10px;
+}
+
+
+.Action .BigDate {
+  font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+  position: absolute;
+  left: 7.5%;
+    color: #000000;
+}
+
+
+.Action .Arrow {
+  position: absolute;
+  left:21%;
+}
+
+
+.Action .RightArrow{
+  position: absolute;
+  left: 24.5%;
+  top: 42%;
+}
+.Action .LeftArrow{
+  position: absolute;
+  left: 19.5%;
+  top: 42%;
+}
+
+.Action .Execute{
+  width: 13%;
+  height: 70%;
+  position: absolute;
+  top: 521%;
+  left: 7%;
+  background: #FFFBDA;
+}
+.Action .Execute1{
+  width: 13%;
+  height: 82%;
+  position: absolute;
+  top: 738%;
+  left: 7%;
+  background: #E9E8FD;
+}
+
+.Action .Execute .Black{
+  font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    color: #E7C546;
+}
+.Action .Execute1 .Black1{
+  font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    color: #E7C546;
+}
